@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "shorcut icon" type = "x-icon" href ="12.png">
+    <link rel="stylesheet" href="ssc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>RTU Supreme Student Council</title>
+</head>
+<body>
+    <div>
+        <a href="Main.html">
+            <img class="logo" src="12.png" alt="yes">
+          </a>
+    </div>
+    <div class="header">
+        <h1>RIZAL TECHNOLOGICAL UNIVERSITY SUPREME STUDENT COUNCIL</h1>
+    </div>
+
+    <div class="dropdown">
+        <a href="Main.html">
+            <button class="dropbtn">HOME</button>
+          </a>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">MENU</button>
+        <div class="dropdown-content">
+            <a href="Introduction to Science.pdf"  target="_blank">ACADEMIC FORMS</a>
+            <a href="#">RESOLUTIONS</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">THE RTU STUDENT GOVERNMENT</button>
+        <div class="dropdown-content">
+            <a href="SSC OFFICERS.html">THE SSC OFFICERS</a>
+            <a href="Students.html">STUDENTS</a>
+            <a href="#">SSC, CSC, CISC, AND ACADEMIC ORGANIZATION CBL</a>
+            <a href="#">STUDENT HANDBOOK</a>
+            <a href="#">THE CSC & CISC AO COMMITTEE</a>
+        </div>
+    </div>
+    <div class="datetime">
+        <div class="date">
+            <span id="dayname">Day</span>
+            <span id="month">Month</span>
+            <span id="daynum">00</span>
+            <span id="year">Year</span>
+        </div>
+        <div class="time">
+            <span id="hour">00</span>
+            <span id="minutes">00</span>
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>ANNOUNCEMENT!</h2>
+                <h5>Title description, November 11, 2023</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+
+
+            <div class="card achievement-section">
+                <h2>SSC ACHIEVEMENTS</h2>
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="b1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="b2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="b3.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="b4.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="b5.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="b6.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="b1.jpg" onclick="currentSlide(1)"
+                            alt="ACHIEVEMENTS">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="b2.jpg"  onclick="currentSlide(2)"
+                            alt="TRANSPARENCY REPORTS">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="b3.jpg" onclick="currentSlide(3)"
+                            alt="ACCOMPLISHEMENT REPORTS">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="b4.jpg" onclick="currentSlide(4)"
+                            alt="EVENTS AND VISUAL DOCUMENTATION">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="b5.jpg" onclick="currentSlide(5)"
+                            alt="ADDITIONALSS">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="b6.jpg" onclick="currentSlide(6)"
+                            alt="ADDITIONALS">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>ABOUT SSC</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                    nisi lorem egestas vitae scel<span id="dots">...</span><span id="more" style="display:none;">erisque enim
+                    ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                    vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero
+                    sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+                    fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+                    </span>
+                </p>
+                <button onclick="myFunction()" id="myBtn" class="button"><span>Read more</span></button>
+            </div>
+            
+                
+            <div class="card">
+                <h3>RTU COMMISSIONS</h3>
+                <div class="fakeimg">
+                    <h4>EXECUTIVE DEPARTMENTS</h4>
+                    <p>Details...</p>
+                </div>
+                <div class="fakeimg">
+                    <h4>LEGISLATIVES COMMITTEES</h4>
+                    <p>Details...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>CONTACT US IN:</h3>
+                <a href="https://www.facebook.com/rtusupremesc" target="_blank" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="@rtu_supremesc" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
